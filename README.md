@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://i.imgur.com/ваш_логотип_если_есть.png" width="180" alt="AFK Quota Enforcer">
   <h1 align="center">AFK Quota Enforcer</h1>
   <p align="center">
     <b>"Your AFK time is a privilege, not a right."</b><br>
