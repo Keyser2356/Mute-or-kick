@@ -1,0 +1,7 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "target_channel_id": GUIDE_ID,
+  "kick_channel_id": TARGET_TO_CHANNEL_ID,
+  "monthly_quota_minutes": 60,
+  "admin_user_ids": [id, id]
+}
