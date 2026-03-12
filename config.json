@@ -1,7 +1,49 @@
 {
-  "token": "YOUR_BOT_TOKEN",
-  "target_channel_id": GUIDE_ID,
-  "kick_channel_id": TARGET_TO_CHANNEL_ID,
+  "token": "token",
+  "target_channel_id": id,
+  "kick_channel_id": id,
   "monthly_quota_minutes": 60,
-  "admin_user_ids": [id, id]
+  "admin_user_ids": [id, id],
+  "language": "ru",
+  "embed_colors": {
+    "info": 3447003,
+    "success": 3066993,
+    "error": 15158332,
+    "warning": 16776960
+  },
+  "messages": {
+    "ru": {
+      "no_permission_title": "❌ Нет доступа",
+      "no_permission_desc": "У вас нет прав для использования этой команды.",
+      "reset_success_title": "✅ Квота сброшена",
+      "reset_success_desc": "Квота пользователя {user} сброшена на 0:00:00",
+      "add_success_title": "✅ Квота добавлена",
+      "add_success_desc": "Добавлено {minutes} минут пользователю {user}\nТекущая квота: {quota}/{total}",
+      "check_quota_title": "📊 Квота пользователя",
+      "check_quota_desc": "Квота {user}: {quota}/{total}",
+      "quota_exceeded_title": "🚫 Квота исчерпана!",
+      "quota_exceeded_desc": "Ваша квота для mute закончилась на этот месяц.\nКвота: {quota}/{total}",
+      "quota_exceeded_owner_title": "⚠️ Квота исчерпана (владелец)",
+      "quota_exceeded_owner_desc": "Ваша квота для mute закончилась на этот месяц, но я не могу вас переместить, потому что вы владелец сервера.\nКвота: {quota}/{total}"
+    },
+    "en": {
+      "no_permission_title": "❌ No Permission",
+      "no_permission_desc": "You don't have permission to use this command.",
+      "reset_success_title": "✅ Quota Reset",
+      "reset_success_desc": "{user}'s quota has been reset to 0:00:00",
+      "add_success_title": "✅ Quota Added",
+      "add_success_desc": "Added {minutes} minutes to {user}\nCurrent quota: {quota}/{total}",
+      "check_quota_title": "📊 User Quota",
+      "check_quota_desc": "{user} quota: {quota}/{total}",
+      "quota_exceeded_title": "🚫 Quota Exceeded!",
+      "quota_exceeded_desc": "Your mute quota for this month has run out.\nQuota: {quota}/{total}",
+      "quota_exceeded_owner_title": "⚠️ Quota Exceeded (Owner)",
+      "quota_exceeded_owner_desc": "Your mute quota for this month has run out, but I can't move you because you're the server owner.\nQuota: {quota}/{total}"
+    }
+  },
+  "gifs": {
+    "quota_exceeded": "https://cdn.discordapp.com/attachments/1481751247412531215/1481759261942878208/e36b1e110163330218e18309a0a30429.gif?ex=69b47b59&is=69b329d9&hm=46817662c9ca1b43a176d2d35fa5737914da8bf29812dc04c0d7a89f3db7047b&=",
+    "success": "https://cdn.discordapp.com/attachments/1481751247412531215/1481759261942878208/e36b1e110163330218e18309a0a30429.gif?ex=69b47b59&is=69b329d9&hm=46817662c9ca1b43a176d2d35fa5737914da8bf29812dc04c0d7a89f3db7047b&=",
+    "error": "https://cdn.discordapp.com/attachments/1481751247412531215/1481759261942878208/e36b1e110163330218e18309a0a30429.gif?ex=69b47b59&is=69b329d9&hm=46817662c9ca1b43a176d2d35fa5737914da8bf29812dc04c0d7a89f3db7047b&="
+  }
 }
