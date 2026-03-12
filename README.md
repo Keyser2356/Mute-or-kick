@@ -6,7 +6,7 @@
   </p>
 
   <p align="center">
-    <a href="https://docs.betterdiscord.app/plugins/"><img src="https://img.shields.io/badge/BetterDiscord-Compatible-7289da?style=for-the-badge&logo=discord&logoColor=white" alt="Better Discord - dev.guide"></a>
+    <a href="https://discord.com/"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Better Discord - dev.guide"></a>
     <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"></a>
     <a href="https://github.com/Keyser2356/Mute-or-kick/stargazers"><img src="https://img.shields.io/github/stars/Keyser2356/Mute-Limiter?style=for-the-badge&color=yellow" alt="Stars"></a>
   </p>
