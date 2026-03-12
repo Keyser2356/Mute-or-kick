@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">AFK Quota Enforcer</h1>
+  <h1 align="center">Mute Limiter</h1>
   <p align="center">
     <b>"Your AFK time is a privilege, not a right."</b><br>
     A bot that tracks monthly mute quotas and revokes the ability to sit with a muted mic once the limit is exceeded.
